@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <section>
-        <nav>
-            <img src="./HTML Practise Assets/FES.svg" alt="">
-            <ul>
-                <li> <a href="about">About</a></li>
-                <li> <a href="discord">Discord</a></li>
-                <li> <a href="contact">Contact</a></li>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <h1> Best place to learn frontend</h1>
-                <p> Go from being an absolute beginner to pre with F.E.S</p>
-                <button> Start Now</button>
-            </div>
-            <figure>
-                <img src="./HTML Practise Assets/laptop.png" alt="">
-            </figure>
-        </header>
+      <nav>
+        <img src="./HTML Practise Assets/FES.svg" class="logo" alt="" />
+        <ul>
+          <li><a href="about">About</a></li>
+          <li><a href="discord">Discord</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div>
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pre with F.E.S
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./HTML Practise Assets/laptop.png" alt="" />
+          </figure>
+        </div>
+      </header>
     </section>
 
     <main>
-        <section id="about">
-            <h2>About</h2>
-            <div>
-                <p>
-                    zoo wee mama
-                </p>
-                <p>
-                    zoo wee mama
-                </p>
-            </div>
-            <figure>
-                <img src="./HTML Practise Assets/about.jpg" alt="">
-            </figure>
-            
-        </section>
+      <section id="about">
+        <h2>About</h2>
+        <div class="section__description">
+            <div class="section__description--wrapper">
+          <p class="section__description--para">zoo wee mama ninja kawasaki 2013</p>
+          <p class="section__description--para" >zoo wee mama for bronco mustang witha splash of apple cider</p>
+        </div>
+        <figure class="about__img--wrapper">
+          <img src="./HTML Practise Assets/about.jpg" alt="" />
+        </figure>
+    </div>
+      </section>
 
-        <section id="discord">
-            <h2>Discord</h2>
-            <figure>
-                <img src="./HTML Practise Assets/discord.png" alt="">
-            </figure>
-            <div>
-                <p>
-                    another one
-                </p>
-                <p>
-                    another paragraph
-                </p>
-            </div>
-        </section>
-       
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="section__description">
+        <figure class="about__img--wrapper">
+          <img src="./HTML Practise Assets/discord.png" alt="" />
+        </figure>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">another one Lorem ipsum dolor sit amet.</p>
+          <p class="section__description--para">another paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis aperiam sint ipsum nulla inventore nostrum dolore ad iure laboriosam?</p>
+        </div>
+    </div>
+      </section>
 
-        <section id="contact">
-            <h2> Contact </h2>
-            <form action="">
-                <label>Email</label>
-                <input type="text" placeholder="ernebone@gmail.com">
-                <label>Message</label>
-                <textarea type="text" placeholder="ernebone@gmail.com"></textarea>
-            </form>
-        </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <label>Email</label>
+          <input type="email" placeholder="ernebone@gmail.com" />
+          <label>Message</label>
+          <textarea type="text" placeholder="Swag Money"></textarea>
+          <button>CONTACT US!</button>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <img src="./HTML Practise Assets/FES.svg" alt="">
-        <div>
-            <a href="about">About</a>
-            <a href="discord">Discord</a>
-            <a href="contact">Contact</a>
-            <a href="">Courses</a>
-        </div>
-        <p>Copyright BoneYard</p>
+      <img class="footer__logo" src="./HTML Practise Assets/FES.svg" alt="" />
+      <div class="footer_links">
+        <a class="footer_link" href="about">About</a>
+        <a class="footer_link" href="discord">Discord</a>
+        <a class="footer_link" href="contact">Contact</a>
+        <a class="footer_link" href="">Courses</a>
+      </div>
+      <p>Copyright BoneYard</p>
     </footer>
-</body>
+  </body>
 </html>
